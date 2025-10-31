@@ -58,3 +58,21 @@ button:hover {
   background: #019875;
 }
 
+
+@media (max-width: 480px) {
+  #chat-box, #input-box {
+    width: 90%;
+  }
+
+  #chat-box {
+    height: 60vh;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px;
+  }
+}
